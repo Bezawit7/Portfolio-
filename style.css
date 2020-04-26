@@ -26,16 +26,13 @@ nav ul {
   float: right;
   margin-right: 80px;
 }
-
 nav ul li {
   list-style-type: none;
   display: inline-block;
 }
-
 nav ul li a:hover {
   border-bottom: 2px solid yellow;
 }
-
 nav ul li a {
   text-decoration: none;
   padding: 20px;
@@ -49,7 +46,6 @@ nav .logo {
   text-align: center;
   padding: 0;
 }
-
 nav .logo h1 {
   padding: 0 5px 0 5px;
   margin: 0 auto;
@@ -57,7 +53,6 @@ nav .logo h1 {
 nav .logo:hover {
   border-bottom: 2px solid yellow;
 }
-
 .image-section {
   text-align: center;
   margin: 0 auto;
@@ -96,8 +91,9 @@ nav .logo:hover {
 
 .about img {
   width: 400px;
-  height: 500px;
+  height: 450px;
   margin-left: 100px;
+  padding-top: 5px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
@@ -105,30 +101,10 @@ nav .logo:hover {
   width: 50%;
   float: left;
   height: 70vh;
-  padding: 150px 150px 0 0;
+  padding: 50px 150px 0 0;
 }
 .aboutMe {
-  margin-top: 40px;
+  margin-top: 30px;
+  font-style: oblique;
+  font-size: 19px;
 }
-/*
-.description {
-  text-align: right;
-  float: right;
-  font-size: 50px;
-  margin-top: 0 px;
-}
-  */
-
-/*
-.about {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 50px;
-  padding: 2px;
-}
-  */
-
-/* .general {
-  float: right;
-  margin-top: 0 auto;
-} */
