@@ -15,6 +15,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Home */
 nav {
   width: 100%;
   height: 15%;
@@ -79,3 +80,55 @@ nav .logo:hover {
 .title {
   color: peru;
 }
+
+/* About */
+.about-section {
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+.about {
+  width: 40%;
+  height: 70vh;
+  float: left;
+}
+
+.about img {
+  width: 400px;
+  height: 500px;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+.general {
+  width: 50%;
+  float: left;
+  height: 70vh;
+  padding: 150px 150px 0 0;
+}
+.aboutMe {
+  margin-top: 40px;
+}
+/*
+.description {
+  text-align: right;
+  float: right;
+  font-size: 50px;
+  margin-top: 0 px;
+}
+  */
+
+/*
+.about {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  padding: 2px;
+}
+  */
+
+/* .general {
+  float: right;
+  margin-top: 0 auto;
+} */
